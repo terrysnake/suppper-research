@@ -1,5 +1,5 @@
 ---
-name: company-research
+name: suppper-research
 description: 调研目标公司，生成以公司事实为主体的精简客户开发与首次拜访简报，识别业务重点、合作切入点和待验证问题。适用于公司背景调查、潜在客户研究、销售拜访准备；默认围绕 LinkWise 数据服务，也可使用用户提供的业务背景。不用于完整投资尽调、信用审查或单纯修改调研提示词。
 license: MIT
 ---
