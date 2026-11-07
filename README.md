@@ -1,4 +1,4 @@
-# Company Research
+# suppper-research
 
 面向客户开发与首次拜访的公司调研技能。以目标公司事实为主体，快速了解业务、竞争位置和近期变化，再判断合作切入点。
 
@@ -14,13 +14,13 @@ An evidence-based company research skill for prospect discovery and first-meetin
 
 ## 安装
 
-将本仓库作为名为 `company-research` 的技能目录安装到支持 `SKILL.md` 的工具中。
+将本仓库作为名为 `suppper-research` 的技能目录安装到支持 `SKILL.md` 的工具中。
 
 Codex 使用默认技能目录时，可以执行：
 
 ```sh
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/terrysnake/company-research.git "${CODEX_HOME:-$HOME/.codex}/skills/company-research"
+git clone https://github.com/terrysnake/suppper-research.git "${CODEX_HOME:-$HOME/.codex}/skills/suppper-research"
 ```
 
 如果目标目录已经存在，先检查已有内容，避免覆盖。安装后新建会话使用。
@@ -32,13 +32,13 @@ git clone https://github.com/terrysnake/company-research.git "${CODEX_HOME:-$HOM
 最简调用：
 
 ```text
-使用 $company-research 调研【公司名称或官网】，为 LinkWise 的首次客户拜访做准备。
+使用 $suppper-research 调研【公司名称或官网】，为 LinkWise 的首次客户拜访做准备。
 ```
 
 指定重点：
 
 ```text
-使用 $company-research 调研【公司名称或官网】。
+使用 $suppper-research 调研【公司名称或官网】。
 特别关注：近期 AI 产品布局及数据供应商合作线索。
 本次业务：数据采集、标注和质量检查。
 ```
@@ -46,7 +46,7 @@ git clone https://github.com/terrysnake/company-research.git "${CODEX_HOME:-$HOM
 替换合作方：
 
 ```text
-使用 $company-research 调研【公司名称或官网】。
+使用 $suppper-research 调研【公司名称或官网】。
 我方公司：【名称】。
 我方业务：【实际提供的服务和已确认的能力】。
 用于首次拜访，主体仍然是对目标公司的了解。
